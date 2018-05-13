@@ -1,0 +1,62 @@
+/** Breakpoint Tablet **/
+@media only screen and (min-width:720px){
+
+	body{ background-color: #bf007f; }
+
+#inicio{ width: 80vw; }
+
+#nosotros{ display: flex; justify-content: space-between; align-items: center; width: 100%; padding-right: 12px;  }
+
+#caja-salones{ width: 50vw;  }
+
+nav ul{ flex-direction: row; }
+
+.cajas{ display: flex; 
+	justify-content: space-between; 
+	align-items: center; 
+	flex-wrap: wrap; 
+	flex-direction: row;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+.caja-eventos{ 
+	width: calc(200%/4);
+	border: 3px solid #ff59c8;
+	padding-right: 1em;
+	padding-left: 1em;
+	height: 20em;
+}
+
+.caja-novedades{ 
+	width: calc(100%/3);
+	border: 3px dashed #ff59c8;
+	padding-right: 1em;
+	padding-left: 1em;
+	flex: 1 1 auto;
+	margin: 0em;
+	height: 20em;
+}
+
+.caja-eventos:first-child{
+	margin-top: 0em;
+}
+
+.caja-novedades:first-child{
+	margin-top: 0em;
+}
+
+#formulario{ width: 50vw; 
+	display: flex; 
+	justify-content: space-between; 
+	align-content: center; 
+	align-items: center; 
+	flex-direction: row; 
+	margin-right: auto; 
+	margin-left: auto;  
+	flex-wrap: wrap;
+}
+
+}
+
+
