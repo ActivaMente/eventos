@@ -9,7 +9,9 @@
 	padding-left: 1em;
 	height: 20em;
 }
+.logo{ width: 25vw; height: 10vh;  }
 
+.logo img{ max-width: 35%; height: auto;}
 
 
 }
